@@ -1,0 +1,19 @@
+[3.672s] Invoking command in '/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot': PYTHONPATH=/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/build --no-deps symlink_data
+[4.132s] running develop
+[4.449s] running egg_info
+[4.449s] writing cleaning_robot.egg-info/PKG-INFO
+[4.468s] writing dependency_links to cleaning_robot.egg-info/dependency_links.txt
+[4.473s] writing entry points to cleaning_robot.egg-info/entry_points.txt
+[4.492s] writing requirements to cleaning_robot.egg-info/requires.txt
+[4.513s] writing top-level names to cleaning_robot.egg-info/top_level.txt
+[4.599s] reading manifest file 'cleaning_robot.egg-info/SOURCES.txt'
+[4.602s] writing manifest file 'cleaning_robot.egg-info/SOURCES.txt'
+[4.613s] running build_ext
+[4.615s] Creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/python3.10/site-packages/cleaning-robot.egg-link (link to .)
+[4.619s] Installing coverage_cleaner script to /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/cleaning_robot
+[4.622s] 
+[4.622s] Installed /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot
+[4.622s] running symlink_data
+[4.632s] symbolically linking /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/maps/cleaning_map.pgm -> /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/maps
+[4.633s] symbolically linking /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/maps/cleaning_map.yaml -> /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/maps
+[4.776s] Invoked command in '/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot' returned '0': PYTHONPATH=/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/build --no-deps symlink_data

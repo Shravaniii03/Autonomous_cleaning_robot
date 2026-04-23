@@ -1,0 +1,30 @@
+[4.894s] Invoking command in '/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot': PYTHONPATH=/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/build --no-deps symlink_data
+[5.964s] running develop
+[6.662s] running egg_info
+[6.664s] creating cleaning_robot.egg-info
+[6.665s] writing cleaning_robot.egg-info/PKG-INFO
+[6.666s] writing dependency_links to cleaning_robot.egg-info/dependency_links.txt
+[6.666s] writing entry points to cleaning_robot.egg-info/entry_points.txt
+[6.693s] writing requirements to cleaning_robot.egg-info/requires.txt
+[6.694s] writing top-level names to cleaning_robot.egg-info/top_level.txt
+[6.695s] writing manifest file 'cleaning_robot.egg-info/SOURCES.txt'
+[6.699s] reading manifest file 'cleaning_robot.egg-info/SOURCES.txt'
+[6.702s] writing manifest file 'cleaning_robot.egg-info/SOURCES.txt'
+[6.709s] running build_ext
+[6.712s] Creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/python3.10/site-packages/cleaning-robot.egg-link (link to .)
+[6.715s] Installing coverage_cleaner script to /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/cleaning_robot
+[6.715s] 
+[6.715s] Installed /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot
+[6.715s] running symlink_data
+[6.719s] creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/ament_index
+[6.720s] creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/ament_index/resource_index
+[6.721s] creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/ament_index/resource_index/packages
+[6.721s] symbolically linking /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/resource/cleaning_robot -> /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/ament_index/resource_index/packages
+[6.721s] symbolically linking /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/package.xml -> /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot
+[6.721s] creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/launch
+[6.723s] symbolically linking /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/launch/cleaning_robot_launch.py -> /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/launch
+[6.723s] creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/worlds
+[6.724s] symbolically linking /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/worlds/cleaning_room.world -> /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/worlds
+[6.724s] creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/maps
+[6.724s] creating /home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/share/cleaning_robot/config
+[6.881s] Invoked command in '/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot' returned '0': PYTHONPATH=/home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs552/cleaning_robot_ws/install/cleaning_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pes2ug23cs552/cleaning_robot_ws/build/cleaning_robot/build --no-deps symlink_data

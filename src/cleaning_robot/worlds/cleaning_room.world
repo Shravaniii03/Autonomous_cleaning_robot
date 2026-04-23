@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="cleaning_room">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+
+    <!-- North Wall -->
+    <model name="wall_north">
+      <static>true</static>
+      <pose>0 5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>10 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>10 0.1 1</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- South Wall -->
+    <model name="wall_south">
+      <static>true</static>
+      <pose>0 -5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>10 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>10 0.1 1</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- East Wall -->
+    <model name="wall_east">
+      <static>true</static>
+      <pose>5 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.1 10 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.1 10 1</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- West Wall -->
+    <model name="wall_west">
+      <static>true</static>
+      <pose>-5 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.1 10 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.1 10 1</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- Table obstacle -->
+    <model name="table">
+      <static>true</static>
+      <pose>2 2 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>1 1 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1 1 0.5</size></box></geometry>
+          <material><ambient>0.5 0.3 0.1 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Chair obstacle -->
+    <model name="chair">
+      <static>true</static>
+      <pose>-2 -2 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.5 0.5 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.5 0.5 0.5</size></box></geometry>
+          <material><ambient>0.1 0.3 0.6 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Sofa obstacle -->
+    <model name="sofa">
+      <static>true</static>
+      <pose>-3 2 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>1.5 0.5 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1.5 0.5 0.5</size></box></geometry>
+          <material><ambient>0.2 0.5 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

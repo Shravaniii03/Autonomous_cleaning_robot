@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+cleaning_robot/__init__.py
+cleaning_robot/coverage_cleaner.py
+cleaning_robot.egg-info/PKG-INFO
+cleaning_robot.egg-info/SOURCES.txt
+cleaning_robot.egg-info/dependency_links.txt
+cleaning_robot.egg-info/entry_points.txt
+cleaning_robot.egg-info/requires.txt
+cleaning_robot.egg-info/top_level.txt
+cleaning_robot.egg-info/zip-safe
+launch/cleaning_robot_launch.py
+maps/cleaning_map.pgm
+maps/cleaning_map.yaml
+resource/cleaning_robot
+worlds/cleaning_room.world

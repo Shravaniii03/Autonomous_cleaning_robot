@@ -1,0 +1,3 @@
+[console_scripts]
+coverage_cleaner = cleaning_robot.coverage_cleaner:main
+
